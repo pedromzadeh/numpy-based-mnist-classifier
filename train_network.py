@@ -7,10 +7,10 @@ import network as nn
 import load_data as ld
 
 # hyperparameters
-N_train = 5000
+N_train = 40000
 N_test = 5000
 N_batch = 50
-N_epoch = 30
+N_epoch = 15
 lr = 10
 
 training_data, testing_data = ld.load_data(N_train,N_test)
